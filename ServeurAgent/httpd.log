@@ -1,0 +1,128 @@
+server(started, 1743195027).
+/*Fri Mar 28 21:50:35 2025*/ request(1, 1743195035.873, [peer(ip(127,0,0,1)),method(options),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),access_control_request_method('PUT'),access_control_request_headers('content-type'),origin('http://localhost:9000'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0'),sec_fetch_mode(cors),sec_fetch_site('same-site'),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+completed(1, 0.015625, 0, 200, ok).
+/*Fri Mar 28 21:50:35 2025*/ request(2, 1743195035.900, [peer(ip(127,0,0,1)),method(put),request_uri('/action'),path('/action'),http_version(1-1),host(localhost),port(8081),connection('keep-alive'),content_length(1781),sec_ch_ua_platform('"Windows"'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0'),sec_ch_ua('"Chromium";v="134", "Not:A-Brand";v="24", "Microsoft Edge";v="134"'),content_type('application/json'),sec_ch_ua_mobile('?0'),origin('http://localhost:9000'),sec_fetch_site('same-site'),sec_fetch_mode(cors),sec_fetch_dest(empty),referer('http://localhost:9000/')]).
+_{ beliefs: _{ certain_eternals: _{ cells: [ _{x:0,y:0},
+					     _{x:1,y:0},
+					     _{x:2,y:0},
+					     _{x:3,y:0},
+					     _{x:4,y:0},
+					     _{x:5,y:0},
+					     _{x:0,y:1},
+					     _{x:1,y:1},
+					     _{x:2,y:1},
+					     _{x:3,y:1},
+					     _{x:4,y:1},
+					     _{x:5,y:1},
+					     _{x:0,y:2},
+					     _{x:1,y:2},
+					     _{x:2,y:2},
+					     _{x:3,y:2},
+					     _{x:4,y:2},
+					     _{x:5,y:2},
+					     _{x:0,y:3},
+					     _{x:1,y:3},
+					     _{x:2,y:3},
+					     _{x:3,y:3},
+					     _{x:4,y:3},
+					     _{x:5,y:3},
+					     _{x:0,y:4},
+					     _{x:1,y:4},
+					     _{x:2,y:4},
+					     _{x:3,y:4},
+					     _{x:4,y:4},
+					     _{x:5,y:4},
+					     _{x:0,y:5},
+					     _{x:1,y:5},
+					     _{x:2,y:5},
+					     _{x:3,y:5},
+					     _{x:4,y:5},
+					     _{x:5,y:5}
+					   ],
+				    eat_exit: _{ c: _{x:1,y:1},
+						 e: _{id:exit}
+					       },
+				    eat_walls: [ _{ c: _{x:5,y:5},
+						    w: _{id:wall20}
+						  },
+						 _{ c: _{x:4,y:5},
+						    w: _{id:wall19}
+						  },
+						 _{ c: _{x:3,y:5},
+						    w: _{id:wall18}
+						  },
+						 _{ c: _{x:2,y:5},
+						    w: _{id:wall17}
+						  },
+						 _{ c: _{x:1,y:5},
+						    w: _{id:wall16}
+						  },
+						 _{ c: _{x:0,y:5},
+						    w: _{id:wall15}
+						  },
+						 _{ c: _{x:5,y:4},
+						    w: _{id:wall14}
+						  },
+						 _{ c: _{x:0,y:4},
+						    w: _{id:wall13}
+						  },
+						 _{ c: _{x:5,y:3},
+						    w: _{id:wall12}
+						  },
+						 _{ c: _{x:0,y:3},
+						    w: _{id:wall11}
+						  },
+						 _{ c: _{x:5,y:2},
+						    w: _{id:wall10}
+						  },
+						 _{ c: _{x:0,y:2},
+						    w: _{id:wall9}
+						  },
+						 _{ c: _{x:5,y:1},
+						    w: _{id:wall8}
+						  },
+						 _{ c: _{x:0,y:1},
+						    w: _{id:wall7}
+						  },
+						 _{ c: _{x:5,y:0},
+						    w: _{id:wall6}
+						  },
+						 _{ c: _{x:4,y:0},
+						    w: _{id:wall5}
+						  },
+						 _{ c: _{x:3,y:0},
+						    w: _{id:wall4}
+						  },
+						 _{ c: _{x:2,y:0},
+						    w: _{id:wall3}
+						  },
+						 _{ c: _{x:1,y:0},
+						    w: _{id:wall2}
+						  },
+						 _{ c: _{x:0,y:0},
+						    w: _{id:wall1}
+						  }
+					       ]
+				  },
+	       certain_fluents: _{ alive: [_{id:hunter}],
+				   dir: [_{d:north,h:_{id:hunter}}],
+				   fat_gold: [],
+				   fat_hunter: _{ c: _{x:1,y:1},
+						  h: _{id:hunter}
+						},
+				   game_state: running,
+				   has_arrow: [ _{ a: _{id:arrow1},
+						   h: _{id:hunter}
+						 }
+					      ],
+				   has_gold: [],
+				   score: 0,
+				   visited: []
+				 },
+	       step: 0,
+	       uncertain_eternals: _{eat_pit:[],eat_wumpus:[]},
+	       uncertain_fluents: _{fatal:[]}
+	     },
+   percepts: []
+ }
+completed(2, 0.015625, 35, 200, ok).
